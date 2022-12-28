@@ -1,0 +1,139 @@
+
+
+
+html,
+body
+{
+    margin: 0;
+}
+
+
+
+.user-choice h1,
+.Gameplay-container h1{
+
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+
+
+
+.Gameplay-container{
+    height: 60vh;
+    width: 100vw;
+}
+
+#text-area{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#score{
+    margin-top: 2%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 10vh;
+    width: 20vw;
+}
+#text-info{
+    text-align: center;
+    height: 10vh;
+    width: 20vw;
+
+}
+
+#game-container{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+.computer-choice,
+.user-choice{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 10vw;
+    border-style:dashed;
+    border-width: 3px;
+    border-color: black;
+}
+
+.box-title{
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: light;
+    text-align: center;
+}
+.Options-container{
+
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+
+}
+
+
+.img-box{
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color:  rgba(255, 252, 150, 0.3);
+    border-radius: 10px;
+    height: 40%;
+    width: 10%;
+}
+
+
+
+.img-box:hover{
+
+    transform: scale(1.2) perspective(1px);
+}   
+
+.img-box:active{
+
+    transform: translate(0em, 5px);
+    
+}
+
+
+.last{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.last button{
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 20px;
+    background-color: rgba(255, 252, 150, 0.3);
+    border-style: none;
+    border-radius: 10px;
+    height: 70%;
+    width: 15%;
+    margin-bottom: 2em;
+}
+
+.last button:hover{
+    transform: scale(1.2) perspective(1px);
+}
+
+.last button:active{
+
+    transform: translate(0em, 5px);
+    
+}
